@@ -1,0 +1,97 @@
+{
+  "built_utc": "2026-11-09 17:44:14Z",
+  "panel_end": "2026-06-30",
+  "yahoo_tickers": [
+    "VFINX",
+    "VGTSX",
+    "VWEHX",
+    "VFICX",
+    "VGSIX",
+    "VGSLX",
+    "VNQ",
+    "NLY",
+    "VUSTX",
+    "TLT",
+    "GLD",
+    "GC=F",
+    "SPY",
+    "VBMFX",
+    "BIL",
+    "EFA",
+    "REM"
+  ],
+  "gold_construction": [
+    "World Bank Pink Sheet monthly gold 1833-01-31\u21922026-10-31"
+  ],
+  "tbill_construction": [
+    "French RF 1926-07-31\u21922026-09-30",
+    "TB3MS yield conversion 2026-10-31\u21922026-10-31"
+  ],
+  "ereit_end": "2026-07-31",
+  "coverage": {
+    "US": {
+      "start": "1980-01-31",
+      "end": "2026-06-30",
+      "n": 558
+    },
+    "INTL": {
+      "start": "1996-04-30",
+      "end": "2026-06-30",
+      "n": 363
+    },
+    "HY": {
+      "start": "1980-01-31",
+      "end": "2026-06-30",
+      "n": 558
+    },
+    "IG": {
+      "start": "1993-10-31",
+      "end": "2026-06-30",
+      "n": 393
+    },
+    "EREIT": {
+      "start": "1996-05-31",
+      "end": "2026-06-30",
+      "n": 362
+    },
+    "MREIT": {
+      "start": "1997-10-31",
+      "end": "2026-06-30",
+      "n": 345
+    },
+    "GOLD": {
+      "start": "1833-01-31",
+      "end": "2026-06-30",
+      "n": 2322
+    },
+    "TREAS": {
+      "start": "1986-05-31",
+      "end": "2026-06-30",
+      "n": 482
+    },
+    "TBILL": {
+      "start": "1926-07-31",
+      "end": "2026-06-30",
+      "n": 1200
+    },
+    "BOND": {
+      "start": "1986-12-31",
+      "end": "2026-06-30",
+      "n": 475
+    },
+    "SPY": {
+      "start": "1993-01-31",
+      "end": "2026-06-30",
+      "n": 402
+    }
+  },
+  "common_start": "1997-10-31",
+  "common_end": "2026-06-30",
+  "common_n": 345,
+  "notes": {
+    "MREIT": "NLY (Annaly) is a single-name agency mREIT, not the NAREIT mortgage REIT index.",
+    "GOLD": "World Bank Pink Sheet monthly average USD/oz (datasets/gold-prices). Month-average, not LBMA PM fix. Gold pays no dividend.",
+    "TBILL": "Kenneth French monthly RF (1-month T-bill return), TB3MS yield conversion only to extend the tail.",
+    "INTL": "VGTSX is ACWI ex-US (developed + emerging), slightly broader than EAFE."
+  }
+}

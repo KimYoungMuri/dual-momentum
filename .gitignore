@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.mplcache/
+.venv/
+.pytest_cache/
+outputs/math/
+outputs/figures/_pdf_preview/
